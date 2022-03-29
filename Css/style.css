@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+body{
+    background-image: url(../Image/thumb-1920-457705.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: auto;
+    width: 300px;
+    padding: 50px;
+    background-color:blanchedalmond;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.titulo{
+    padding: 10px;
+}
